@@ -1,4 +1,4 @@
-print('===== EXERCICIO 012 =====')
+print('===== EXERCICIO 012 ython, While Loops is used to execu=====')
 print('Faça um algoritmo que leia o preço de um produto e mostre seu novo preço com 5% de desconto.')
 
 preco = float(input('Qual o preço? '))
