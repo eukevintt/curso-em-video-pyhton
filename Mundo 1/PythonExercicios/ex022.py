@@ -1,0 +1,15 @@
+print('==== EXERCICIO 022 =====')
+print('- Crie um programa que leia o nome completo de uma pessoa e mostre: -')
+print('-> O nome com todas as letras maiúsculas')
+print('-> O nome com todas minúsculas')
+print('-> Quantas letras ao todo (Sem considerar espaços)')
+print('-> Quantas letras tem o primeiro nome')
+
+nome = input('Qual o seu nome? ')
+
+print('Seu nome todo em maiúsculo:', nome.upper())
+print('Seu nome todo em minúsculo', nome.lower())
+nomeFormatedSplit = nome.split()
+nomeFormated = nome.strip()
+print('Seu nome tem {} letras'.format(len(nomeFormated) - nome.count(' ')))
+print('Seu primeiro nome tem {} letras'.format(len(nomeFormatedSplit[0])))

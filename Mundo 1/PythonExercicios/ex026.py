@@ -1,0 +1,10 @@
+print('===== Exercicio 026 =====')
+print('- Faça um programa que leia uma frase pelo teclado e mostre -')
+print('-> Quantas vezes aparece a letra "A"')
+print('-> Em que posição ela aparece a primeira vez')
+print('-> Em que posição ela aparece a última vez')
+
+nome = input('Digite um nome: ').lower().strip()
+print('Seu nome tem {} letra a'.format(nome.count('a')))
+print('A primeira letra A aparece na posição {}'.format(nome.find('a') + 1))
+print('A última letra A aparece na posição {}'.format(nome.rfind('a') + 1))
